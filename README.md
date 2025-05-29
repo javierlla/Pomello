@@ -7,11 +7,11 @@
 
 ## 👨‍💻 Contribuidores
 
-- **Igor Aparicio**  
-- **Daniel Arroyo**  
-- **Dalila Cabrera**  
-- **Javier Llarena**  
-- **Indira Sierra**
+- [Igor Aparicio](https://github.com/Igoruve)
+- [Daniel Arroyo](https://github.com/darroyo083)
+- [Dalila Cabrera](https://github.com/crdalila)
+- [Javier Llarena](https://github.com/javierlla)
+- [Indira Sierra](https://github.com/IndiraSierra)
 
 ---
 
