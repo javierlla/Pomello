@@ -1,97 +1,94 @@
-# Pomello
-## Task Manager with Pomodoro Integration
+# 🧠 Pomello  
+**Gestor de Tareas con Técnica Pomodoro Integrada**
 
-**Pomello** is a full-stack task management application that blends the organizational structure of **Trello** with the productivity rhythm of the **Pomodoro technique**. It implements a dropdown component that enhances user interaction by allowing dynamic selection of task-related options.
-
-## Contributors
-
-- [Igor Aparicio](https://github.com/Igoruve)
-- [Daniel Arroyo](https://github.com/darroyo083)
-- [Dalila Cabrera](https://github.com/crdalila)
-- [Javier Llarena](https://github.com/javierlla)
-- [Indira Sierra](https://github.com/IndiraSierra)
+**Pomello** es una aplicación full-stack de gestión de tareas que combina la estructura organizativa de **Trello** con el ritmo productivo de la **técnica Pomodoro**. Incorpora un componente desplegable que mejora la interacción del usuario al permitir la selección dinámica de opciones relacionadas con las tareas.
 
 ---
 
----
+## 👨‍💻 Contribuidores
 
-## Features
-
-### Core Functionality
-
-- **Task Boards:** Create projects, lists, and tasks. Drag-and-drop capabilities for smooth workflow management.
-- **Pomodoro Timer:** Fully integrated timer with customizable focus and break intervals. Automates the start-stop cycle for deep work sessions.
-- **Statistics Tracking:** Backend logic stores usage and session data of the timer for analytics and productivity feedback.
-- **Responsive UI:** Built with React and TailwindCSS.
+- **Igor Aparicio**  
+- **Daniel Arroyo**  
+- **Dalila Cabrera**  
+- **Javier Llarena**  
+- **Indira Sierra**
 
 ---
 
-## 🚀 Tech Stack
+### Funciones Principales
 
-| Layer         | Technology         |
-|---------------|--------------------|
-| Frontend      | React + TailwindCSS |
-| Backend       | Node.js + Express   |
-| Database      | MongoDB + Mongoose  |
-| Auth & Tokens | JWT                 |
-| Dev Tools     | Vite                |
+- **Tableros de Tareas**: Crea proyectos, listas y tareas. Funcionalidad de *drag-and-drop* para una gestión fluida del flujo de trabajo.
+- **Temporizador Pomodoro**: Temporizador totalmente integrado con intervalos personalizables de enfoque y descanso. Automatiza los ciclos de trabajo profundo.
+- **Seguimiento de Estadísticas**: La lógica del backend almacena datos de uso y sesiones del temporizador para análisis y retroalimentación de productividad.
+- **Interfaz Responsiva**: Construida con **React** y **TailwindCSS**.
 
 ---
 
-## Project Structure
+## 🚀 Tecnologías Utilizadas
 
-```bash
+| Capa           | Tecnología                 |
+|----------------|----------------------------|
+| Frontend       | React + TailwindCSS        |
+| Backend        | Node.js + Express          |
+| Base de Datos  | MongoDB + Mongoose         |
+| Autenticación  | JWT                        |
+| Herramientas   | Vite                       |
+
+---
+
+## 🗂 Estructura del Proyecto
+
 Pomello/
 ├── client/
-│   ├── src/
-│   │   ├── components/           # Small components
-│   │   ├── context/              # Auth context
-│   │   ├── data/                 # Example data          
-│   │   ├── pages/                # Main components
-│   │   ├── styles/               # Custom styles
-│   │   ├── utils/
-│   │   ├── styles/  
+│ ├── src/
+│ │ ├── components/ # Componentes pequeños
+│ │ ├── context/ # Contexto de autenticación
+│ │ ├── data/ # Datos de ejemplo
+│ │ ├── pages/ # Componentes principales
+│ │ ├── styles/ # Estilos personalizados
+│ │ ├── utils/ # Utilidades
 ├── server/
-│   ├── docs                      # Documentation  
-│   ├── src/
-│   │   ├── config/               # Mongoose configuration
-│   │   ├── controllers/
-│   │   ├── middlewares/
-│   │   ├── models/
-│   │   ├── routes/
-│   │   ├── utils/                # Errors, token and bcrypt
-│   │   ├── index.js
-│   ├── package.json              # Server dependencies
-```
+│ ├── docs/ # Documentación
+│ ├── src/
+│ │ ├── config/ # Configuración de Mongoose
+│ │ ├── controllers/ # Controladores
+│ │ ├── middlewares/ # Middlewares
+│ │ ├── models/ # Modelos de MongoDB
+│ │ ├── routes/ # Rutas
+│ │ ├── utils/ # Errores, token y bcrypt
+│ │ ├── index.js # Punto de entrada
+│ ├── package.json # Dependencias del backend
+
 
 ---
 
-## Installation
+## ⚙️ Instalación
 
 ```bash
-# Clone repository
-git clone https://github.com/Igoruve/Pomello-fullstack.git
-cd Pomello-fullstack
+# Clonar el repositorio
+git clone https://github.com/javierlla/Pomello.git
+cd Pomello
 
-# Install client dependencies
+Instalar dependencias del cliente:
+
 cd client
 npm install
 
-# Install server dependencies
+Instalar dependencias del servidor:
+
 cd ../server
 npm install
-```
 
----
+▶️ Uso
+Iniciar el servidor (backend):
 
-## Usage
-
-### Start the server (backend):
-```bash
 cd server
 docker compose up
-```
 
+Iniciar la aplicación cliente (frontend):
+
+cd client
+npm run dev
 ### Start the client (frontend):
 ```bash
 cd client
